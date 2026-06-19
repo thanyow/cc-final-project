@@ -150,7 +150,7 @@ $htmlContent = <<<'HTML'
           Welcome to <strong>Project Nimbus</strong>. This dashboard is a functional proof-of-concept for a high-availability cloud infrastructure built on AWS. 
           While themed as a meteorological command center, it fulfills all core requirements of our Cloud Computing Final Project: 
           <strong>Two EC2 Web Servers</strong> for redundancy, an <strong>Application Load Balancer (ALB)</strong> for traffic distribution, 
-          and a <strong>Shared RDS Database</strong> for synchronized state management. Explore the active routing nodes below!
+          and a <strong>Dedicated Database EC2 Instance</strong> for synchronized state management. Explore the active routing nodes below!
         </p>
       </div>
     </div>
@@ -221,8 +221,8 @@ $htmlContent = <<<'HTML'
         <div class="feature-item">
           <div class="feature-icon green-glow"><i data-lucide="database"></i></div>
           <div class="feature-text">
-            <strong>RDS Memory Vault</strong>
-            <span>Synchronizing historical weather logs.</span>
+            <strong>Dedicated Database Node</strong>
+            <span>Synchronizing historical weather logs via MySQL.</span>
           </div>
         </div>
       </div>
