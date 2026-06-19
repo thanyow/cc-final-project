@@ -110,8 +110,9 @@ try {
     $content = $notices . $adminForm . '
     <section class="panel">
       <h2><i data-lucide="thermometer"></i> Atmospheric Data Logs</h2>
-      <p style="margin-bottom: 24px; font-size: 0.92rem; color: var(--text-secondary);">Historical weather events and system logs retrieved from the shared RDS database instance.</p>
-      
+      <p style="margin-bottom: 24px; font-size: 0.92rem; color: var(--text-secondary);">
+        Historical weather events and system logs retrieved from the centralized database server instance.
+      </p>      
       <div class="table-toolbar" style="margin-bottom: 24px;">
         <div style="position: relative; max-width: 320px; width: 100%;">
           <i data-lucide="search" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: #64748b; z-index: 1;"></i>
