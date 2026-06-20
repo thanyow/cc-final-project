@@ -16,9 +16,10 @@ CREATE TABLE IF NOT EXISTS announcements (
 );
 
 INSERT INTO group_members (student_name, student_id, role_name) VALUES
-('Member 1 Name', 'Student ID 1', 'Web Server Configuration'),
-('Member 2 Name', 'Student ID 2', 'Database Server Configuration'),
-('Member 3 Name', 'Student ID 3', 'Load Balancer Testing');
+('Maurithania Joleesha Maria Tjakra', '102022340119', 'Chief Meteorologist'),
+('Thiflan Hakim Alfarizzy', '102022340401', 'Atmospheric Analyst'),
+('Gusti Muhammad Malvin Athallahsyah', '102022340306', 'Radar Engineer'),
+('Christhofer Risaldy Kobong', '102022340376', 'Field Observer');
 
 INSERT INTO announcements (title, body) VALUES
 ('Database Connection Successful', 'This content is loaded from the MySQL database server.'),
