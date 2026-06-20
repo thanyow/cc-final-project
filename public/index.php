@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../app/config.php';
+require __DIR__ . '/../config.php';
 
 $isAdmin = !empty($_SESSION['admin_logged_in']);
 
