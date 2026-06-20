@@ -23,3 +23,11 @@ INSERT INTO group_members (student_name, student_id, role_name) VALUES
 INSERT INTO announcements (title, body) VALUES
 ('Database Connection Successful', 'This content is loaded from the MySQL database server.'),
 ('Load Balancer Demo', 'Refresh the page to see whether Instance 1 or Instance 2 serves the request.');
+
+-- Sessions table for shared session storage across load-balanced instances
+CREATE TABLE IF NOT EXISTS sessions (
+  id VARCHAR(128) PRIMARY KEY,
+  data TEXT NOT NULL,
+  last_accessed INT UNSIGNED NOT NULL,
+  INDEX idx_last_accessed (last_accessed)
+);
