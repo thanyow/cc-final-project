@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/config.php';
+require __DIR__ . '/../app/config.php';
 
 // Handle Logout
 if (isset($_GET['logout'])) {

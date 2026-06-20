@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/config.php';
+require __DIR__ . '/../app/config.php';
 
 // Redirect if already logged in
 if (isset($_SESSION['logged_in'])) {
